@@ -1,0 +1,186 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: sans-serif;
+}
+#nav_bar
+ {
+ 	position: sticky;
+ 	top: 0;
+ 	z-index: 10;
+
+}
+.navbar {
+	background-image:linear-gradient(to right,#6495ed,#5f9ea0);
+
+}
+.navbar-brand img{
+	height: 50px;
+	padding-left: 10px;
+
+}
+.navbar-nav li
+{
+padding: 0 10px;
+
+ 
+}
+.navbar-nav li a
+{
+	color:#fff !important;
+	font-weight: 600;
+	float: right;
+text-align: left;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30!important;
+}
+.navbar-toggler{
+	outline: none;
+}
+#banner{
+	padding:40px 50px;
+	background-image: linear-gradient(to right,#6495ed,#5f9ea0);
+	color: #fff;
+}
+.promo-title{
+	font-size: 40px;
+	padding-top: 20px;
+
+}
+#services
+{
+	padding: 80px 50px;
+
+}
+.img-service{
+	width: 300px;
+	padding-top: 10px;
+}
+.service{
+	padding:60px;
+}
+.service h3{
+	padding: 10px;
+	padding-top: 10px;
+}
+
+.title::after{
+	content: '';
+	background: #00008b;
+	height:5px; 
+	width:300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	transform: translateY(8px);
+
+}
+#services  .btn-primary
+{
+	box-shadow: none;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 30px;
+
+}
+#aboutus
+{
+	padding-bottom: 70px;
+	padding-top: 10px;
+	background:#f8f9fa;
+	padding: 20px;
+
+
+}
+.aboutus-title{
+	font-size: 36px;
+	font-weight: 200px;
+}
+#aboutus ul li {
+	padding: 20px;
+}
+
+#aboutus ul	{
+	padding-left: 40px;
+}
+#testimonials
+{
+margin: 100px 0;
+
+
+
+}
+.testimonials{
+	border-left: 5px solid blue;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.testimonials img{
+	border-radius: 30px;
+	margin: 0 10px;
+}
+.user-details{
+	display: inline-block;
+
+}
+#social-media p{
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.socail-icons img{
+	width: 60px;
+	transition: 0.6s;
+}
+.socail-icons:hover img{
+	transform: translateY(10px);
+}
+#footer {
+	background-image: linear-gradient(to right,#6495ed,#5f9ea0);
+	color: #ffff;
+	margin-top: 30px;
+}
+.boxfooter{
+	
+	padding-top: 40px;
+}
+
+
+
+}
+.boxfoote .fa{
+	margin-right: 8px;
+	font-size: 20px;
+	height: 40px;
+}
+.boxfoote .form-control{
+	border:none !important;
+	box-shadow: none;
+	max-width: 200px;
+	margin-top: 25px;
+	border-radius: none;
+}
+.boxfoote .btn-primary{
+	border:none !important;
+	box-shadow: none;
+	border-radius: none;
+	margin-top: 30px;
+	background: linear-gradient(to right,#6495ed,#5f9ea0);
+
+
+}
+hr{
+	background-color: #fff;
+}
+.copyright{
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
